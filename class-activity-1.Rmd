@@ -4,7 +4,6 @@ author: "Charles Lang"
 date: "9/24/2018"
 output: html_document
 ---
-
 ```{r}
 #3.
 library(dplyr)
@@ -44,4 +43,3 @@ DF6$datetime <- strftime(DF6$datetime, format="%b:%e")
 
 DF7 <- DF6 %>% group_by(datetime) %>% summarise(av.correct = mean(correct, na.rm = TRUE))
 ```
-

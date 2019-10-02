@@ -2,9 +2,7 @@
 ## Data Manipulation
 
 In this repository you will find data describing Swirl activity from the class so far this semester. Please connect RStudio to this repository.
-
 ### Instructions
-  
 1. Open a new R Markdown file, please write and run all your commands from within the R Markdown document  
 2. Delete the contents of the Markdown file and insert a new code block
 3. Load the libraries  `tidyr` and `dplyr`
